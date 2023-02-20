@@ -1,0 +1,40 @@
+{
+  "name": "101339235_comp3133_assignment1",
+  "version": "1.0.0",
+  "description": "Backend application using NodeJS, Express, GraphQL, MongoDB, and Mongoose",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Infinite-Prowess/101339235_COMP3133_Assignment1.git"
+  },
+  "keywords": [
+    "mongoose",
+    "Apollo",
+    "graphql",
+    "mongodb",
+    "express",
+    "API"
+  ],
+  "author": "Omar Nabi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Infinite-Prowess/101339235_COMP3133_Assignment1/issues"
+  },
+  "homepage": "https://github.com/Infinite-Prowess/101339235_COMP3133_Assignment1#readme",
+  "dependencies": {
+    "apollo-server-express": "^2.19.2",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "graphql": "^15.8.0",
+    "mongoose": "^5.11.15"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
